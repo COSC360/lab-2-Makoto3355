@@ -6,6 +6,7 @@ header, footer{
 
 h1, h2, h3, nav, footer{
     font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+    
 }
 
 h1{
@@ -17,18 +18,22 @@ h2{
 }
 
 h3{
+    border-bottom: 0.2em solid lightgray;
+    margin-bottom: 0.5em;
     font-size: 1.125em;
+}
+
+article{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    background-color: #98dafc;
+    margin: 0em 4em 0.5em 4em;
 }
 
 nav{
     font-size: 1.125em;
 }
 
-body{
-    font-family: Georgia, Cambria, "Times New Roman", serif;
-    font-size: 100%;
-    background-color: #98dafc;
-}
 
 a:link{
     color: #98dafc;
@@ -48,7 +53,7 @@ a:hover{
     color: white;
 }
 
-#large-img-2{
+#large-image{
     border: solid black;
     width: 98%;
     display: flex;
@@ -82,7 +87,8 @@ span.c{
 .byline{
     border-top: solid lightgrey;
     padding-top:0.5%;
-
+    font-style: italic;
+    font-size: 0.9em;
     border-bottom: dotted lightgrey;
     margin-bottom: 0.5%;
 }
